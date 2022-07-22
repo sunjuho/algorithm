@@ -27,7 +27,6 @@ public class Problem05_10250 {
         int caseN = Integer.parseInt(br.readLine());
 
         double h;
-        double w;
         double n;
         int flour;
         try {
@@ -36,7 +35,7 @@ public class Problem05_10250 {
                     st = new StringTokenizer(br.readLine(), " ");
 
                     h = Integer.parseInt(st.nextToken());
-                    w = Integer.parseInt(st.nextToken());
+                    st.nextToken();
                     n = Integer.parseInt(st.nextToken());
 
                     flour = (int) (n % h) == 0 ? (int) h : (int) (n % h);
