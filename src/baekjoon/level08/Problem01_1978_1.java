@@ -11,7 +11,7 @@ https://www.acmicpc.net/problem/1978
 
 주어진 수 N개 중에서 소수가 몇 개인지 찾아서 출력하는 프로그램을 작성하시오.
  */
-public class Problem01_1978 {
+public class Problem01_1978_1 {
     public static void main(String[] args) throws NumberFormatException, IOException {
 
         int num = 1000;
@@ -21,7 +21,9 @@ public class Problem01_1978 {
 
         isPrime[0] = isPrime[1] = false;
 
-        for (int i = 2; i * i < num; i++) {
+        // 최대숫자의 제곱근까지만 반복.
+        // 자연수끼리의 곱이 되려면, 적어도 한 자연수는 제곱근 이하의 값이어야 함.
+        for (int i = 2; i <= (int) Math.sqrt(num); i++) {
             // i가 소수이면,
             if (isPrime[i]) {
                 // i의 배수는 소수가 아님.
