@@ -14,7 +14,7 @@ https://www.acmicpc.net/problem/2563
 
 예를 들어 흰색 도화지 위에 세 장의 검은색 색종이를 그림과 같은 모양으로 붙였다면 검은색 영역의 넓이는 260이 된다.
  */
-public class Problem02_2563 {
+public class Problem03_2563 {
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
