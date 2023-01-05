@@ -26,11 +26,11 @@ public class Problem08_11650 {
             index++;
         }
 
-        // 2차월 배열 정렬 0번쨰 열 다음 1번째 열 기준(다중 배열 정렬)
+        // 2차원 배열 정렬 0열 다음 1열 기준(다중 배열 정렬)
         Arrays.sort(arr, new Comparator<int[]>() {
             @Override
             public int compare(int[] o1, int[] o2) {
-                if (o1[0] == o2[0]) { // 0번째 열이 같으면 1번째 열 기준으로 정렬
+                if (o1[0] == o2[0]) { // 0열이 같으면 1열 기준으로 정렬
                     return o1[1] - o2[1];
                 } else {
                     return o1[0] - o2[0];
