@@ -2,6 +2,9 @@ package programmers.level2.의상;
 
 import java.util.HashMap;
 
+/*
+https://school.programmers.co.kr/learn/courses/30/lessons/42578
+ */
 public class Solution {
     public int solution(String[][] clothes) {
         int answer = 1;
