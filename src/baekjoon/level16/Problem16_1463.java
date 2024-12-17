@@ -2,7 +2,7 @@ package baekjoon.level16;
 
 import java.util.Scanner;
 
-public class Proble16_1463 {
+public class Problem16_1463 {
     public static void main(String[] args) {
         // 1463. 1로 만들기.
         // -1 or /2 or /3 을 사용하여 가장 적은 횟수로 1을 만들기.
